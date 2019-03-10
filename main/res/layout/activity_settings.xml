@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/Bar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/colorAppBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageUndo"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/undo" />
+
+                <TextView
+                    android:id="@+id/textBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="НАСТРОЙКИ"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_text"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageShare"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:padding="7dp"
+                    app:srcCompat="@drawable/podelitsaicon" />
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:id="@+id/listview"
+            android:padding="2dp"
+            android:divider="@color/color_background_dialog"
+            android:dividerHeight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#373737</color> //вверх
+    <color name="colorAccent">#339200</color>
+    <color name="color_background">#000000</color>
+    <color name="color_background_dialog">#3A3A3A</color>
+    <color name="color_text">#ffffff</color>
+    <color name="color_text2">#C9C9C9</color>
+    <color name="color_text_info">#77FFFFFF</color>
+    <color name="colorSpeedLimit">#FF1B00</color>
+    <color name="colorAppBar">#257200</color>
+
+</resources>
